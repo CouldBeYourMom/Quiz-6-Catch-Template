@@ -23,11 +23,11 @@
 */
 
 #include <iostream>
+#include "heapFunctions.h"
 
 int* extractMax(int arr[], int size)
 {
-  // code here
-	// main prints the final heap array from 0 to size - 2
-	// you don't need to print the array but instead return
+  arr[0] = arr[--size];
+  HeapifyDown(arr, size, 0);
 	return arr; 
 }

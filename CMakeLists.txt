@@ -22,6 +22,8 @@ include_directories(src)
 
 add_executable(Tests
         src/extract_max.h
+        src/heapFunctions.h
+        src/heapFunctions.cpp
         test/test.cpp # your test file
         # add your own header files below
         )
