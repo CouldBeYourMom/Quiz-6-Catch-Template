@@ -21,7 +21,7 @@ FetchContent_MakeAvailable(Catch2)
 include_directories(src)
 
 add_executable(Tests
-        src/interquartile_range.h
+        src/extract_max.h
         test/test.cpp # your test file
         # add your own header files below
         )
